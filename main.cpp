@@ -4,7 +4,10 @@
 int main() {
     int i, j;
     while (cin >> i >> j) {
-        cout << i << '\t' << j << endl;
+        if (i < j)
+            cout << "The smaller number is " << i << " and the larger value is " << j << endl;
+        else
+            cout << "The smaller number is " << j << " and the larger value is " << i << endl;
     }
     return 0;
 }
