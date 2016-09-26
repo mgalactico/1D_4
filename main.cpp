@@ -2,7 +2,7 @@
 #include "../std_lib_facilities.h"
 
 int main() {
-    int i, j;
+    double i, j;
     while (cin >> i >> j) {
         if (i < j)
             cout << "The smaller number is " << i << " and the larger value is " << j << endl;
