@@ -6,8 +6,10 @@ int main() {
     while (cin >> i >> j) {
         if (i < j)
             cout << "The smaller number is " << i << " and the larger value is " << j << endl;
-        else
+        else if (j < i)
             cout << "The smaller number is " << j << " and the larger value is " << i << endl;
+        else
+            cout << "The numbers are equal!" << endl;
     }
     return 0;
 }
